@@ -45,7 +45,7 @@ std::string getImageUrlFromXML(std::string path, unsigned int depth) {
       // std::cout << node->value() << '\n';
       return node->value();
     } else {
-      return "No Images";
+      return "";
     }
   }
 }
