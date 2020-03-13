@@ -11,6 +11,16 @@
 ## test
  - googletest
 
+## how to git clone with submodule
+##### 3 way how to
+ - git clone https://github.com/cpro95/conan-test.git
+ - git submodule init
+ - git submodule update
+<hr>
+
+#### 1 way how to
+ - git clone --recurse-submodules https://github.com/cpro95/conan-test.git 
+
 ## binary file saved to /bin folder.
 
 ## conanfile.txt
