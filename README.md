@@ -8,6 +8,9 @@
 - cmake ..
 - make
 
+## test
+ - googletest
+
 ## binary file saved to /bin folder.
 
 ## conanfile.txt
