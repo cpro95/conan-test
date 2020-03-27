@@ -10,14 +10,12 @@ add_definitions("-std=c++17")
 
 enable_testing()
 
-add_subdirectory(googletest)
-
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
 include_directories(
-    ${CMAKE_SOURCE_DIR}/src/Third_Party/tabulate,
-    ${CMAKE_SOURCE_DIR}/src/Third_Party
+    ${CMAKE_SOURCE_DIR}/external/tabulate,
+    ${CMAKE_SOURCE_DIR}/external
 )
 
 set(Headers

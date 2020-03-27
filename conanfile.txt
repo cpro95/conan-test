@@ -6,7 +6,15 @@ fmt/6.1.2
 nlohmann_json/3.7.3
 spdlog/1.5.0
 docopt.cpp/0.6.2
+sfml/2.5.1@bincrafters/stable
+gtest/1.8.1@bincrafters/stable
+
+[options]
+sfml:shared=False
+sfml:window=True
+sfml:audio=True
+sfml:network=True
+sfml:graphics=True
 
 [generators]
 cmake
-
